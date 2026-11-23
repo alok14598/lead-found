@@ -10,7 +10,8 @@ import { processSearch } from "./process-search.js";
  */
 export const checkSearches = schedules.task({
   id: "lead-finder-check-searches",
-  cron: { pattern: "0 9 * * *", timezone: "Asia/Kolkata" },
+  // IST — Trigger.dev only accepts the older IANA name "Asia/Calcutta", not "Asia/Kolkata"
+  cron: { pattern: "0 9 * * *", timezone: "Asia/Calcutta" },
   run: async (payload) => {
     const config = parseConfig(rawConfig);
 
