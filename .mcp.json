@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "trigger": {
+      "command": "npx",
+      "args": ["trigger.dev@4.8.9", "mcp", "--project-ref", "proj_wejgnwvfgfcrryfxjsda"]
+    }
+  }
+}

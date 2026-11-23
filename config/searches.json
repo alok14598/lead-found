@@ -1,0 +1,24 @@
+{
+  "runEveryDays": 2,
+  "searches": [
+    {
+      "label": "Dentists - Koramangala",
+      "niche": "dentist",
+      "location": "Koramangala, Bengaluru, India",
+      "radiusKm": 5
+    },
+    {
+      "label": "Cafes - Indiranagar",
+      "niche": "cafe",
+      "location": "Indiranagar, Bengaluru, India",
+      "radiusKm": 3
+    },
+    {
+      "label": "Gyms - HSR Layout",
+      "niche": "gym",
+      "location": "HSR Layout, Bengaluru, India",
+      "radiusKm": 4,
+      "maxRequests": 20
+    }
+  ]
+}

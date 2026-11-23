@@ -1,0 +1,24 @@
+{
+  "name": "lead-finder",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "trigger.dev dev",
+    "deploy": "trigger.dev deploy",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "google:sign-in": "node --experimental-strip-types --no-warnings scripts/google-sign-in.ts"
+  },
+  "dependencies": {
+    "@trigger.dev/sdk": "^4.8.9",
+    "google-auth-library": "^11.3.4",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "trigger.dev": "^4.8.9",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.8"
+  }
+}
